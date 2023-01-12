@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">ModernLoginRegister</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="top_icon">TOP ICON</string>
+    <string name="email">Email</string>
+    <string name="password">Mot de passe </string>
+    <string name="login">LOGIN</string>
+    <string name="verif">Entrer votre email</string>
+    <string name="verif1">Entrer votre nouveau mot de passe</string>
+    <string name="forgot_password">MOT DE PASSE OUBLIE?</string>
+    <string name="or">OU</string>
+    <string name="access_token">pk.eyJ1IjoibW9oYW1lZG1tYyIsImEiOiJjbDMwZGdqbWQxbzJ2M2RsYnk1ZnNha3d0In0.7u7ms0-4It3peCwh0rSKrA</string>
+
+    <string name="google_icon">google icon</string>
+    <string name="facebook_icon">facebook icon</string>
+    <string name="new_user_register_now">Nouveau utilisateur ? Inscrivez vous</string>
+    <string name="what_happened">What happened?</string>
+    <string name="i_found_something">I found something</string>
+    <string name="i_lost_something">I lost something</string>
+
+    <string name="facebook_app_id">1638480973179895</string>
+    <string name="fb_login_protocol_scheme">fb1638480973179895</string>
+    <string name="facebook_client_token">902115fe2c1b13e5934843cc9f128de6</string>
+</resources>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.amier.Activities.activities.AssociationDonation">
+
+    <RelativeLayout
+        android:id="@+id/FirstRe"
+        android:layout_width="match_parent"
+        android:layout_height="250dp">
+
+        <ImageView
+            android:id="@+id/AssociationImage"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_centerVertical="true"
+            android:layout_margin="50dp" />
+
+        <TextView
+            android:id="@+id/associationNom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="210dp"
+            android:layout_marginTop="65dp"
+            android:text="article Title" />
+
+        <TextView
+            android:id="@+id/associationNumTel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="210dp"
+            android:layout_marginTop="115dp"
+            android:text="12345678" />
+
+        <TextView
+            android:id="@+id/associationCategorie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="210dp"
+            android:layout_marginTop="165dp"
+            android:text="categorie" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_below="@+id/FirstRe"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/pickOne"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="Selectionner un de vos articles ajouté dans l'application"
+            android:textAlignment="center"
+            android:textSize="25dp" />
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/animationNoreponse"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:scaleType="centerCrop"
+            app:lottie_rawRes="@raw/nodata" />
+
+        <TextView
+            android:id="@+id/messageReponse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/animationNoreponse"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="Vous n'avez rien ajouté dans l'application Lost&amp;Found"
+            android:textAlignment="center"
+            android:textSize="25dp" />
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvAss"
+            android:layout_below="@+id/pickOne"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"/>
+
+        <LinearLayout
+            android:layout_alignParentBottom="true"
+            android:paddingLeft="4.0dip"
+            android:paddingTop="5.0dip"
+            android:paddingRight="4.0dip"
+            android:paddingBottom="1.0dip"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+
+
+            <Button
+                android:id="@+id/ArticleAssociation"
+                android:layout_width="0.0dip"
+                android:layout_height="50dp"
+                android:layout_weight="1.0"
+                android:layout_marginBottom="15dp"
+                android:text="Voir contribution" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:clickable="true"
+    android:focusable="true"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    card_view:cardUseCompatPadding="true"
+    card_view:cardElevation="5dp"
+    card_view:contentPadding="10dp"
+    card_view:cardCornerRadius="20dp">
+
+
+    <ImageView android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/associationImage"
+        android:layout_marginStart="20dp"
+        android:layout_gravity="center_vertical"/>
+
+    <TextView
+        android:id="@+id/associationNom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="30dp"
+        android:textColor="#D77345C5"
+        android:text="article Title"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/associationNumTel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="80dp"
+        android:textColor="#E4009688"
+        android:text="12345678" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="categorie"
+        android:id="@+id/associationCategorie"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="120dp"/>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,97 @@
+{
+  "project_info": {
+    "project_number": "997711106712",
+    "project_id": "lostandfoundandroid-a1e59",
+    "storage_bucket": "lostandfoundandroid-a1e59.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:997711106712:android:2b1e9ae3e6215f43fa36ed",
+        "android_client_info": {
+          "package_name": "com.amier.Activities.activities"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "997711106712-jsi2fidn7adkpp5peaq505uj7k25hqn9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7zu0gmdIW6ULeM4qR1cguwfwc5nHFdec"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "997711106712-jsi2fidn7adkpp5peaq505uj7k25hqn9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:997711106712:android:00964ee6346c50c9fa36ed",
+        "android_client_info": {
+          "package_name": "com.amier.modernloginregister"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "997711106712-jsi2fidn7adkpp5peaq505uj7k25hqn9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7zu0gmdIW6ULeM4qR1cguwfwc5nHFdec"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "997711106712-jsi2fidn7adkpp5peaq505uj7k25hqn9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:997711106712:android:cdbd1cad4cd36a36fa36ed",
+        "android_client_info": {
+          "package_name": "com.example.fcm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "997711106712-jsi2fidn7adkpp5peaq505uj7k25hqn9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7zu0gmdIW6ULeM4qR1cguwfwc5nHFdec"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "997711106712-jsi2fidn7adkpp5peaq505uj7k25hqn9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

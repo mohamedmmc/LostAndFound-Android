@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:clickable="true"
+    android:focusable="true"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    card_view:cardUseCompatPadding="true"
+    card_view:cardElevation="5dp"
+    card_view:contentPadding="10dp">
+
+
+    <RelativeLayout
+        android:id="@+id/article"
+        android:layout_width="wrap_content"
+        android:layout_height="139dp"
+
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/ArticleImage"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+
+        <TextView
+            android:id="@+id/ArticleName"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_toEndOf="@+id/ArticleImage"
+            android:text="Title"
+            android:textColor="#D77345C5"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/ArticleDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ArticleName"
+            android:layout_marginStart="20dp"
+            android:layout_toEndOf="@+id/ArticleImage"
+            android:text="Title"
+            android:textSize="18sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/Creation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ArticleDescription"
+            android:layout_marginStart="20dp"
+            android:layout_toEndOf="@+id/ArticleImage"
+            android:shadowColor="#08A698"
+            android:text="creation"
+            android:textColor="#E4009688"
+            android:textSize="18sp" />
+
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ArticleDescription"
+            android:layout_marginStart="40dp"
+            android:layout_toEndOf="@id/Creation"
+            android:text="TextView"
+            android:textSize="18sp" />
+
+
+        <ImageView
+            android:id="@+id/question"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+
+            android:layout_marginRight="25dp"
+            android:layout_toLeftOf="@+id/report"
+            android:src="@drawable/ic_baseline_assignment_24" />
+
+        <ImageView
+            android:id="@+id/report"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentEnd="true"
+            android:adjustViewBounds="true"
+            android:gravity="right"
+            android:src="@drawable/ic_baseline_outlined_flag_24" />
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
